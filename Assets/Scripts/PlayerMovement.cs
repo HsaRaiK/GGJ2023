@@ -24,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         CharacterMovement();
+        SpriteRotation();
+            
     }
 
 
@@ -85,6 +87,21 @@ public class PlayerMovement : MonoBehaviour
       }   
     }
 
+    private void SpriteRotation()
+   {
+    
+     if(Input.GetKeyDown(KeyCode.LeftArrow)){
+        transform.localRotation = Quaternion.Euler(0, 180, 0);
+
+
+
+     }
+     else if(Input.GetKeyDown(KeyCode.RightArrow)){
+        transform.localRotation = Quaternion.Euler(0, 0, 0);
+
+    }
+
     
     
+   }
 }
