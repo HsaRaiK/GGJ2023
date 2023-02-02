@@ -7,24 +7,36 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     
+    
     [SerializeField] float horizontalSpeed = 5f;
     [SerializeField] float jumpPower = 5f;
+    [SerializeField] float dashPower = 5f;
+    
+
     public static float movement;
     private int doubleJumpCounter = 2;
     private bool grounded = true;
+
+    private bool canDash = true;
+    private float  dashCoolDown = 3f;
+    
+    
 
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        
+              
     }
 
 
     private void Update()
+    
     {
-        CharacterMovement();
         SpriteRotation();
+        CharacterMovement();
+        
+
             
     }
 
@@ -38,11 +50,20 @@ public class PlayerMovement : MonoBehaviour
 
         if(gameObject.CompareTag("Ninja")){
             DoubleJump();
+
+            if(Input.GetKeyDown(KeyCode.LeftShift) & canDash == true){
+                StartCoroutine(Dash());
+            }
+
+            
             
         }
         else if(gameObject.CompareTag("Kid")){
             Jump();
+            
         }
+
+
 
 
 
@@ -51,6 +72,21 @@ public class PlayerMovement : MonoBehaviour
         
         
     }
+    IEnumerator Dash(){
+
+        canDash = false;
+        float dashPowerTemp = dashPower * Input.GetAxisRaw("Horizontal");
+        
+        rb.velocity = new Vector2(dashPowerTemp , 0f);
+        
+        yield return new WaitForSeconds(dashCoolDown);
+        canDash = true;
+
+
+        
+        
+    }
+    
 
 
     private void Jump()
@@ -100,6 +136,7 @@ public class PlayerMovement : MonoBehaviour
         transform.localRotation = Quaternion.Euler(0, 0, 0);
 
     }
+    
 
     
     
