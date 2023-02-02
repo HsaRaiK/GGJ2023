@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -117,12 +118,36 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D col)
     {
-      if(col.gameObject.tag == "Ground"){
+      if(col.gameObject.tag == "Ground")
+      {
+
+        
         doubleJumpCounter = 2;
         grounded = true;
         
       }   
     }
+    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "PassLevel2")
+        {
+            SceneManager.LoadScene("Level2");
+
+        }
+        else if(other.gameObject.tag == "PassLevel3")
+        {
+            SceneManager.LoadScene("Level3");
+
+        }
+        else if(other.gameObject.tag == "PassLevel4")
+        {
+            SceneManager.LoadScene("Main Menu");
+
+        }
+        
+    }
+    
 
     private void SpriteRotation()
    {

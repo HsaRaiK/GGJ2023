@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 71820466}
   - component: {fileID: 71820465}
   - component: {fileID: 71820464}
+  - component: {fileID: 71820467}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -318,6 +319,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &71820467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71820463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63a9fa99d191c441bb13e16e8f87f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kid: {fileID: 1706413401}
+  ninja: {fileID: 172914306}
+  offset: {x: 0, y: 0, z: -12}
 --- !u!1 &95071513
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +778,69 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0256, y: 0.0256}
   m_EdgeRadius: 0
+--- !u!1 &172914306 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8224413406761083203, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+  m_PrefabInstance: {fileID: 1645980356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &203091293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203091295}
+  - component: {fileID: 203091294}
+  m_Layer: 0
+  m_Name: LevelPass
+  m_TagString: PassLevel3
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &203091294
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203091293}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.7059326, y: -0.2777443}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.4118652, y: 0.4445114}
+  m_EdgeRadius: 0
+--- !u!4 &203091295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203091293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 292.71, y: -38.03, z: -0.6141663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &318461146
 GameObject:
   m_ObjectHideFlags: 0
@@ -4428,6 +4507,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0256, y: 0.0256}
   m_EdgeRadius: 0
+--- !u!1 &1706413401 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3535062900905210965, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+  m_PrefabInstance: {fileID: 1645980356}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1798083935
 GameObject:
   m_ObjectHideFlags: 0
