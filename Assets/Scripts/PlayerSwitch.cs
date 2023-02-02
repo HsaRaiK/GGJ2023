@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerSwitch : MonoBehaviour
 {
-    [SerializeField]   GameObject child;
-    [SerializeField]   GameObject ninja;
+    [SerializeField] public static GameObject child;
+    [SerializeField] public static GameObject ninja;
 
     [SerializeField] float switchTime = 6f;
 
@@ -13,6 +13,8 @@ public class PlayerSwitch : MonoBehaviour
     private bool runSwitch = true;
     void Start()
     {
+        child = GameObject.FindGameObjectWithTag("Kid");
+        ninja = GameObject.FindGameObjectWithTag("Ninja");
         ninja.SetActive(false);
         runSwitch = true;
     }

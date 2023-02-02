@@ -117,7 +117,10 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D col)
     {
-      if(col.gameObject.tag == "Ground"){
+      if(col.gameObject.tag == "Ground")
+      {
+
+        
         doubleJumpCounter = 2;
         grounded = true;
         
