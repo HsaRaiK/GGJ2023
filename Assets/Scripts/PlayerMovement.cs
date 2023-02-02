@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private bool grounded = true;
 
     private bool canDash = true;
-    private float  dashCoolDown = 3f;
+    private float  dashCoolDown = 1.5f;
     
     
 
@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        
               
     }
 
@@ -35,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
     {
         SpriteRotation();
         CharacterMovement();
+        
+        
         
 
             
@@ -61,7 +64,9 @@ public class PlayerMovement : MonoBehaviour
         else if(gameObject.CompareTag("Kid")){
             Jump();
             
+            
         }
+        
 
 
 
