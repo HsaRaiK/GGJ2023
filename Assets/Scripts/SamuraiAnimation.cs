@@ -15,6 +15,7 @@ public class SamuraiAnimation : MonoBehaviour
         SRun = GetComponent<Animator>();
         SJump = GetComponent<Animator>();
         SDash = GetComponent<Animator>();
+        SJump = GetComponent<Animator>();
         
 
     }
@@ -43,6 +44,17 @@ public class SamuraiAnimation : MonoBehaviour
         }
         else{
             SDash.SetBool("Dash" , false);
+        }
+
+        if(rb.velocity.y > 0){
+            SJump.SetInteger("JumpOrFall" , 1);
+
+        }
+        else if(rb.velocity.y < 0 ){
+            SJump.SetInteger("JumpOrFall" , -1);
+        }
+        else{
+            SJump.SetInteger("JumpOrFall" , 0);
         }
         
     }
