@@ -69,7 +69,9 @@ public class SamuraiAnimation : MonoBehaviour
 
             foreach (Collider2D enemy in getHit)
             {
-               Debug.Log("Ouch"); 
+               Debug.Log("Ouch");
+               
+               enemy.GetComponent<mob>().damage(1);
             }
             
             
