@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float horizontalSpeed = 5f;
     [SerializeField] float jumpPower = 5f;
     [SerializeField] float dashPower = 5f;
+    [SerializeField] private TrailRenderer trail;
     
 
     public static float movement;
@@ -84,9 +85,11 @@ public class PlayerMovement : MonoBehaviour
         float dashPowerTemp = dashPower * Input.GetAxisRaw("Horizontal");
         
         rb.velocity = new Vector2(dashPowerTemp , 0f);
+        trail.emitting = true;
         
         yield return new WaitForSeconds(dashCoolDown);
         canDash = true;
+        trail.emitting = false;
 
 
         
