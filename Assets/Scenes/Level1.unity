@@ -2949,6 +2949,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 211298623521797404, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: attckAnimation
+      value: 
+      objectReference: {fileID: 995498540}
+    - target: {fileID: 559024536523455953, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 995498540}
     - target: {fileID: 635756331744217958, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.78578526
