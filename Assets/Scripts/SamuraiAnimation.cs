@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,9 @@ public class SamuraiAnimation : MonoBehaviour
     Animator SJump;
     Animator SDash;
     Animator SAttack;
-   
+    public Transform attckpoint;
+    public float attckrange = 0.5f;
+    public LayerMask Mobs;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -62,10 +65,27 @@ public class SamuraiAnimation : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.X)){
             SAttack.SetBool("Attack" , true);
 
+            Collider2D[] getHit =Physics2D.OverlapCircleAll(attckpoint.position,attckrange, Mobs);
+
+            foreach (Collider2D enemy in getHit)
+            {
+               Debug.Log("Ouch"); 
+            }
+            
+            
         }
         else{
             SAttack.SetBool("Attack" , false);
         }
         
+        
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attckpoint == null)
+            return;
+        
+        Gizmos.DrawWireSphere(attckpoint.position,attckrange);
     }
 }
