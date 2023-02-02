@@ -8,6 +8,7 @@ public class SamuraiAnimation : MonoBehaviour
     Animator SRun;
     Animator SJump;
     Animator SDash;
+    Animator SAttack;
    
     void Start()
     {
@@ -16,6 +17,7 @@ public class SamuraiAnimation : MonoBehaviour
         SJump = GetComponent<Animator>();
         SDash = GetComponent<Animator>();
         SJump = GetComponent<Animator>();
+        SAttack = GetComponent<Animator>();
         
 
     }
@@ -55,6 +57,14 @@ public class SamuraiAnimation : MonoBehaviour
         }
         else{
             SJump.SetInteger("JumpOrFall" , 0);
+        }
+
+        if(Input.GetKeyDown(KeyCode.X)){
+            SAttack.SetBool("Attack" , true);
+
+        }
+        else{
+            SAttack.SetBool("Attack" , false);
         }
         
     }

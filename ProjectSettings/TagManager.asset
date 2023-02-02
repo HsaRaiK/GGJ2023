@@ -10,6 +10,8 @@ TagManager:
   - Players
   - BulletTarget
   - BulletClone
+  - Bullet
+  - SamuraiHit
   layers:
   - Default
   - TransparentFX

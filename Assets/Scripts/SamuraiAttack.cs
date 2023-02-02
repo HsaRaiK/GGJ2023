@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class SamuraiAttack : MonoBehaviour
 {
-   [SerializeField] GameObject gameObject;
+   [SerializeField] GameObject samuraiHit;
    public Transform gameobject;
+
+   
    
 
 
@@ -13,6 +15,7 @@ public class SamuraiAttack : MonoBehaviour
    {
     if(Input.GetKeyDown(KeyCode.X))
     {
+        Attack();
         
 
     }
