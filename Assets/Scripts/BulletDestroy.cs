@@ -5,6 +5,7 @@ using UnityEngine;
 public class BulletDestroy : MonoBehaviour
 {
     [SerializeField] GameObject bulletClone;
+    
 
 
     void Start()
@@ -19,9 +20,12 @@ public class BulletDestroy : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Ground"))
+        if(other.gameObject.CompareTag("Ground") || other.gameObject.CompareTag("Kid"))
         {
             Destroy(bulletClone);
+            
+            
+           
         }
     }
 }

@@ -69,15 +69,6 @@ public class PlayerMovement : MonoBehaviour
             
         }
         
-
-
-
-
-
-
-
-        
-        
     }
     IEnumerator Dash(){
 

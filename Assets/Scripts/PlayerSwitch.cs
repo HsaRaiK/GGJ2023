@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerSwitch : MonoBehaviour
 {
-    [SerializeField] GameObject child;
-    [SerializeField] GameObject ninja;
+    [SerializeField]   GameObject child;
+    [SerializeField]   GameObject ninja;
 
-    [SerializeField] float switchTime = 30f;
+    [SerializeField] float switchTime = 6f;
 
     [SerializeField] float switchCoolDown = 5f;
     private bool runSwitch = true;
