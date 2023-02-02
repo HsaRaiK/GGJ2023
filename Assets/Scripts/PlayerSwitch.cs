@@ -24,6 +24,7 @@ public class PlayerSwitch : MonoBehaviour
         if(Input.GetKey(KeyCode.R) & runSwitch == true)
         {
             StartCoroutine(BackSwitch());
+            PlayerMovement.canDash = true;
         }
     }
 

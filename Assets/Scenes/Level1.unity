@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 82690577}
   m_Layer: 0
   m_Name: Square (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,7 +152,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 109066094}
   m_Layer: 0
   m_Name: Square (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -290,7 +290,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 278574319}
   m_Layer: 0
   m_Name: Square (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -428,7 +428,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 299228974}
   m_Layer: 0
   m_Name: Square (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,7 +566,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 321106484}
   m_Layer: 0
   m_Name: Square (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -704,7 +704,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -827,7 +827,7 @@ GameObject:
   - component: {fileID: 346025138}
   m_Layer: 0
   m_Name: Square (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -842,7 +842,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -965,7 +965,7 @@ GameObject:
   - component: {fileID: 398068733}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -980,7 +980,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1103,7 +1103,7 @@ GameObject:
   - component: {fileID: 596451380}
   m_Layer: 0
   m_Name: Square (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1118,7 +1118,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1241,7 +1241,7 @@ GameObject:
   - component: {fileID: 642864409}
   m_Layer: 0
   m_Name: Square (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1256,7 +1256,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1498,7 +1498,7 @@ GameObject:
   - component: {fileID: 696255916}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1580,7 +1580,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1610,7 +1610,7 @@ GameObject:
   - component: {fileID: 789124449}
   m_Layer: 0
   m_Name: Square (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1625,7 +1625,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1826,7 +1826,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &917613448
 GameObject:
@@ -1842,7 +1842,7 @@ GameObject:
   - component: {fileID: 917613452}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1924,7 +1924,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2048,7 +2048,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1086949412
 GameObject:
@@ -2064,7 +2064,7 @@ GameObject:
   - component: {fileID: 1086949416}
   m_Layer: 0
   m_Name: Square (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2079,7 +2079,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2202,7 +2202,7 @@ GameObject:
   - component: {fileID: 1091361153}
   m_Layer: 0
   m_Name: Square (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2217,7 +2217,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2340,7 +2340,7 @@ GameObject:
   - component: {fileID: 1091900315}
   m_Layer: 0
   m_Name: Square (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2355,7 +2355,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2478,7 +2478,7 @@ GameObject:
   - component: {fileID: 1127554182}
   m_Layer: 0
   m_Name: Square (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2493,7 +2493,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2602,6 +2602,87 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0256, y: 0.0256}
   m_EdgeRadius: 0
+--- !u!1001 &1169260335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3026679170498768268, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: jumpPower
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026679170498768268, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: horizontalSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.411698
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.06610787
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997920, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947907701613997922, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: m_Name
+      value: Players
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224413406761083204, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: jumpPower
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224413406761083204, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
+      propertyPath: horizontalSpeed
+      value: 24
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af5b7fdaa1c1a9541b29c58cd56eec21, type: 3}
 --- !u!1 &1181225604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2678,7 +2759,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181225604}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.11, y: 5.09, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2700,7 +2781,7 @@ GameObject:
   - component: {fileID: 1234377353}
   m_Layer: 0
   m_Name: Square (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2715,7 +2796,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2867,8 +2948,73 @@ Transform:
   m_Children:
   - {fileID: 695892863}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1766441528
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 772429864572476412, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678599083111255199, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 6478741189658032591, guid: a1aba966b24112f47b0e6afc9d8cf793, type: 3}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.7082428
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271258466453836621, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8872106392308305465, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16240d2e93d7f0749a1c4296411a4419, type: 3}
 --- !u!1 &1813478735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,7 +3029,7 @@ GameObject:
   - component: {fileID: 1813478739}
   m_Layer: 0
   m_Name: Square (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2898,7 +3044,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3021,7 +3167,7 @@ GameObject:
   - component: {fileID: 1868563850}
   m_Layer: 0
   m_Name: Square (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3036,7 +3182,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3196,7 +3342,7 @@ Transform:
   - {fileID: 299228973}
   - {fileID: 1234377352}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1922560171
 GameObject:
@@ -3212,7 +3358,7 @@ GameObject:
   - component: {fileID: 1922560175}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3227,7 +3373,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3350,7 +3496,7 @@ GameObject:
   - component: {fileID: 2088819179}
   m_Layer: 0
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3365,7 +3511,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3488,7 +3634,7 @@ GameObject:
   - component: {fileID: 2091614016}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3503,7 +3649,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

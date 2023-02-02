@@ -9,6 +9,7 @@ TagManager:
   - Ninja
   - Players
   - BulletTarget
+  - BulletClone
   layers:
   - Default
   - TransparentFX

@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private int doubleJumpCounter = 2;
     private bool grounded = true;
 
-    private bool canDash = true;
+    public static bool canDash = true;
     private float  dashCoolDown = 1.5f;
     
     
@@ -63,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(gameObject.CompareTag("Kid")){
             Jump();
+            canDash = true;
             
             
         }
@@ -125,6 +126,7 @@ public class PlayerMovement : MonoBehaviour
       if(col.gameObject.tag == "Ground"){
         doubleJumpCounter = 2;
         grounded = true;
+        
       }   
     }
 
