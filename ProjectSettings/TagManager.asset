@@ -12,6 +12,9 @@ TagManager:
   - BulletClone
   - Bullet
   - SamuraiHit
+  - PassLevel2
+  - PassLevel3
+  - PassLevel4
   layers:
   - Default
   - TransparentFX
