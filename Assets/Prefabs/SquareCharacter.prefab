@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4966121598797511071}
   - component: {fileID: 4966121598797511070}
   - component: {fileID: 4966121598797511065}
+  - component: {fileID: 5793025246494834924}
   - component: {fileID: 4966121598797511064}
   - component: {fileID: 4966121598797511068}
-  - component: {fileID: 3534134909758678281}
+  - component: {fileID: 4390691782420473602}
   m_Layer: 0
   m_Name: SquareCharacter
   m_TagString: Ninja
@@ -116,6 +117,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.95899343}
   m_EdgeRadius: 0
+--- !u!114 &5793025246494834924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966121598797511067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da580f7d31046042930dd0cd5156023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attckpoint: {fileID: 3279624906710645032}
+  attckrange: 0.5
+  Mobs:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!50 &4966121598797511064
 Rigidbody2D:
   serializedVersion: 4
@@ -153,19 +171,26 @@ MonoBehaviour:
   jumpPower: 5
   dashPower: 5
   trail: {fileID: 0}
---- !u!114 &3534134909758678281
-MonoBehaviour:
+--- !u!95 &4390691782420473602
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4966121598797511067}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c31f9a16b5b6bb48b30f70b183ac1fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1040079f44e4020499d593de725810ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &5220410587679399013
 GameObject:
   m_ObjectHideFlags: 0
