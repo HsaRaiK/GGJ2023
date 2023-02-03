@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3947907701613997922}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.024, y: -1.088, z: 0.06610787}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8224413406761083207}
@@ -170,7 +170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4966121598797511068, guid: 036ebb289c1654346bbca5791ff31954, type: 3}
       propertyPath: jumpPower
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4966121598797511068, guid: 036ebb289c1654346bbca5791ff31954, type: 3}
       propertyPath: horizontalSpeed
@@ -533,11 +533,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8134540360501606049, guid: 1c20a94091848fd4095e6cb60025aead, type: 3}
       propertyPath: jumpPower
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8134540360501606049, guid: 1c20a94091848fd4095e6cb60025aead, type: 3}
       propertyPath: horizontalSpeed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8914027859390746179, guid: 1c20a94091848fd4095e6cb60025aead, type: 3}
       propertyPath: m_LocalPosition.x
@@ -572,7 +572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kid: {fileID: 3535062900905210965}
-  health: 100
 --- !u!1001 &8527848005811735840
 PrefabInstance:
   m_ObjectHideFlags: 0
