@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4823245464188299087}
   m_Layer: 0
   m_Name: Killzone
-  m_TagString: PassLevel4
+  m_TagString: KillZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4823245464188299084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -125.4, y: -22.9, z: -0.49784645}
-  m_LocalScale: {x: 120.175385, y: 3.5721, z: 3.5721}
+  m_LocalScale: {x: 383.05905, y: 3.5721, z: 3.5721}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

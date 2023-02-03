@@ -146,10 +146,15 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene("Level3");
 
         }
-        else if(other.gameObject.tag == "PassLevel4")
+        else if(other.gameObject.tag == "KillZone")
         {
-            SceneManager.LoadScene("Main Menu");
+            SceneManager.LoadScene("DeathScene");
 
+        }
+
+        if(other.gameObject.tag == "PassFinalScene")
+        {
+            SceneManager.LoadScene("FinalScene");
         }
         if(other.gameObject.tag == "MobWeapon")
         {
