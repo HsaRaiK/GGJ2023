@@ -18,6 +18,7 @@ TagManager:
   - MobFollow
   - MobWeapon
   - KillZone
+  - PassFinalScene
   layers:
   - Default
   - TransparentFX

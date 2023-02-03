@@ -4847,7 +4847,7 @@ GameObject:
   - component: {fileID: 1254111879}
   m_Layer: 0
   m_Name: LevelPass
-  m_TagString: PassLevel4
+  m_TagString: PassFinalScene
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
