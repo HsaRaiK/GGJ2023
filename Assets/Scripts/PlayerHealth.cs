@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Bullet") || other.gameObject.CompareTag("MobWeapon"))
+        if(other.gameObject.CompareTag("Bullet"))
         {
             health = health - 5;
             

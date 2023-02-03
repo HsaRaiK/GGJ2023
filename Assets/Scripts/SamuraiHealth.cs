@@ -11,7 +11,7 @@ public class SamuraiHealth : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Bullet") || other.gameObject.CompareTag("MobWeapon"))
+        if(other.gameObject.CompareTag("Bullet"))
         {
             PlayerSwitch.ninja.SetActive(false);
             PlayerSwitch.child.transform.position = PlayerSwitch.ninja.transform.position;

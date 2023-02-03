@@ -13,7 +13,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpPower = 5f;
     [SerializeField] float dashPower = 5f;
     [SerializeField] private TrailRenderer trail;
-    [SerializeField] GameObject players;
     
 
     public static float movement;
@@ -22,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
 
     public static bool canDash = true;
     private float  dashCoolDown = 1.5f;
-    private int pushPower = 3;
     
     
 
@@ -30,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        players = GameObject.FindGameObjectWithTag("Players");
         
               
     }
@@ -41,8 +38,6 @@ public class PlayerMovement : MonoBehaviour
     {
         SpriteRotation();
         CharacterMovement();
-
-        
         
         
         
@@ -150,19 +145,6 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene("Main Menu");
 
         }
-        if(other.gameObject.tag == "MobWeapon")
-        {
-            if(rb.velocity.x > 0)
-            {
-                rb.AddForce(Vector2.left * pushPower);
-            }
-            if(rb.velocity.x < 0)
-            {
-                rb.AddForce(Vector2.right * pushPower);
-            }
-            
-        }
-        
         
     }
     
