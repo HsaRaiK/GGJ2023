@@ -23,7 +23,8 @@ public class AIMOB : MonoBehaviour
         {
             FollowKid();
         }
-        if(PlayerSwitch.child.activeSelf == false){
+        if(PlayerSwitch.child.activeSelf == false)
+        {
             FollowNinja();
         }
         
