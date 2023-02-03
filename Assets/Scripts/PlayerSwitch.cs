@@ -8,9 +8,9 @@ public class PlayerSwitch : MonoBehaviour
     [SerializeField] public static GameObject ninja;
     GameObject players;
 
-    [SerializeField] float switchTime = 6f;
+    [SerializeField] float switchTime = 7f;
 
-    [SerializeField] float switchCoolDown = 5f;
+    [SerializeField] float switchCoolDown = 4f;
     private bool runSwitch = true;
     void Start()
     {

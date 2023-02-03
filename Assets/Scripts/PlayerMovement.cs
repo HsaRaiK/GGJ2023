@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
     {
         movement = Input.GetAxis("Horizontal");
       
-        transform.position += new Vector3(movement , 0 , 0) * horizontalSpeed/1000;
+        transform.position += new Vector3(movement , 0 , 0) * horizontalSpeed/2*Time.deltaTime;
 
         if(gameObject.CompareTag("Ninja")){
             DoubleJump();
@@ -116,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) == true & doubleJumpCounter > 0)
         {
 
-            rb.velocity = new Vector2(movement , jumpPower);
+            rb.velocity = new Vector2(movement , jumpPower) ;
             doubleJumpCounter = doubleJumpCounter -1;
             
         }
