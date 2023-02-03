@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         players = GameObject.FindGameObjectWithTag("Players");
+        Debug.Log("Patates");
         
               
     }
