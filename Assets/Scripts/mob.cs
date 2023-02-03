@@ -5,7 +5,8 @@ using UnityEngine;
 public class mob : MonoBehaviour
 {
     public int hP = 1;
-    private int currentHp;
+    public static int currentHp;
+    public static bool isDead = false;
     void Start()
     {
         currentHp = hP;
@@ -17,6 +18,7 @@ public class mob : MonoBehaviour
 
         if (currentHp <= 0)
         {
+           
             Die();
         }
 
@@ -24,10 +26,15 @@ public class mob : MonoBehaviour
     }
     void Die()
     {
-         // animation ?
          
+         isDead = true;
+         Wait();
          Debug.Log("Died");
          Destroy(this.gameObject);
          
+         
+    }
+    IEnumerator Wait(){
+      yield return new WaitForSeconds(2);
     }
 }

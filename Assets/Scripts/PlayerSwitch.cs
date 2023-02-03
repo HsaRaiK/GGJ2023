@@ -6,6 +6,7 @@ public class PlayerSwitch : MonoBehaviour
 {
     [SerializeField] public static GameObject child;
     [SerializeField] public static GameObject ninja;
+    GameObject players;
 
     [SerializeField] float switchTime = 6f;
 
@@ -15,6 +16,7 @@ public class PlayerSwitch : MonoBehaviour
     {
         child = GameObject.FindGameObjectWithTag("Kid");
         ninja = GameObject.FindGameObjectWithTag("Ninja");
+        
         ninja.SetActive(false);
         runSwitch = true;
     }
@@ -28,6 +30,7 @@ public class PlayerSwitch : MonoBehaviour
             StartCoroutine(BackSwitch());
             PlayerMovement.canDash = true;
         }
+        
     }
 
     void ChildToNinja(){
